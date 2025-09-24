@@ -1,7 +1,7 @@
 from yt_dlp import YoutubeDL
  
 def getfromyt(i):
-    download_path = '~/Downloads/%(title)s.%(ext)s' #edit download folder
+    download_path = 'C:\\Users\\your-username\\Downloads\\%(title)s.%(ext)s' #edit download folder
     ydl_opts = {'extract_flat': 'discard_in_playlist',
     'final_ext': 'mp3',
     'format': 'bestaudio/best',
